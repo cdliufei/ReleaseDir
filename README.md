@@ -17,18 +17,18 @@
 	#
 	#--------------------------------------------------------------------------------
 	# 打包project
-	#    ./Release.sh  <Project directory name> [-s <Name>] [-e] [-d] [-a] [-b <Build number>]
+	#        ./Release.sh  <Project directory name> [-s <Name>] [-e] [-d] [-a] [-b <Build number>]
 	# 打包workspace
-	#    ./Release.sh  <Project directory name> [-w] [-s <Name>] [-e] [-d] [-b <Build number>] [-v <Version number>]
+	#        ./Release.sh  <Project directory name> [-w] [-s <Name>] [-e] [-d] [-b <Build number>] [-v <Version number>]
 	# 参数说明：
 	#     <Project directory name>   第一个参数：所要打包的项目的根目录文件夹名称         
-	#     -w 				         workspace打包，不传默认为project打包
-	#     -s <Name>			         对应workspace下需要编译的scheme（不传默认取xcodeproj根目录文件名）
-	#     -e 	        	         打包前是否先编译工程（不传默认不编译）
-	#     -d 		                 工程的configuration为 Debug 模式，不传默认为Release
-	#     -a 			             打包，Version版本号自动＋1（针对多次打测试包时的版本号修改）
-	#	  -b <Build Num>             Build版本号，指定项目Build号
-	#	  -v <Version Num>           Version版本号，指定项目Version号
+	#     -w 		         workspace打包，不传默认为project打包
+	#     -s <Name>			 对应workspace下需要编译的scheme（不传默认取xcodeproj根目录文件名）
+	#     -e 	        	 打包前是否先编译工程（不传默认不编译）
+	#     -d 		         工程的configuration为 Debug 模式，不传默认为Release
+	#     -a 	                 打包，Version版本号自动＋1（针对多次打测试包时的版本号修改）
+	#     -b <Build Num>             Build版本号，指定项目Build号
+	#     -v <Version Num>           Version版本号，指定项目Version号
 	#  注意，参数-a 与 -v 互斥，只能选择传其中一种参数！！
 	#--------------------------------------------------------------------------------
 	#
